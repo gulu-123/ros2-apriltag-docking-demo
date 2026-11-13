@@ -2,8 +2,13 @@
 
 [English](README.md) | **简体中文**
 
-[![ROS 2 CI](https://github.com/Quchaosheng/ros2-apriltag-docking-demo/actions/workflows/ros2-ci.yml/badge.svg?branch=main)](https://github.com/Quchaosheng/ros2-apriltag-docking-demo/actions/workflows/ros2-ci.yml)
+![Python](https://img.shields.io/badge/language-Python-3776AB?logo=python&logoColor=white)
+![ROS 2 Jazzy](https://img.shields.io/badge/ROS_2-Jazzy-22314E?logo=ros&logoColor=white)
+![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
+[![Upstream ROS 2 CI](https://github.com/Quchaosheng/ros2-apriltag-docking-demo/actions/workflows/ros2-ci.yml/badge.svg?branch=main)](https://github.com/Quchaosheng/ros2-apriltag-docking-demo/actions/workflows/ros2-ci.yml)
 [![许可证](https://img.shields.io/badge/license-Apache--2.0-2EA44F)](LICENSE)
+
+> **Fork 来源与验证范围**：本仓库 Fork 自 [Quchaosheng/ros2-apriltag-docking-demo](https://github.com/Quchaosheng/ros2-apriltag-docking-demo)，保留上游作者署名与 Apache-2.0 许可。上方 CI 徽章显示的是**上游仓库**的结果，不代表本 Fork 已执行验证。后续个人改动和复现结果应在本仓库单独记录。
 
 这是一个基于 Gazebo 的可复现对接流程：TurtleBot3 先到达充电桩前的 staging
 位姿，系统确认实时 AprilTag 观测后，再由 Nav2 Docking Framework 完成最终接近。

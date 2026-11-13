@@ -2,8 +2,13 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-[![ROS 2 CI](https://github.com/Quchaosheng/ros2-apriltag-docking-demo/actions/workflows/ros2-ci.yml/badge.svg?branch=main)](https://github.com/Quchaosheng/ros2-apriltag-docking-demo/actions/workflows/ros2-ci.yml)
+![Python](https://img.shields.io/badge/language-Python-3776AB?logo=python&logoColor=white)
+![ROS 2 Jazzy](https://img.shields.io/badge/ROS_2-Jazzy-22314E?logo=ros&logoColor=white)
+![Ubuntu 24.04](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
+[![Upstream ROS 2 CI](https://github.com/Quchaosheng/ros2-apriltag-docking-demo/actions/workflows/ros2-ci.yml/badge.svg?branch=main)](https://github.com/Quchaosheng/ros2-apriltag-docking-demo/actions/workflows/ros2-ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-2EA44F)](LICENSE)
+
+> **Fork provenance and validation:** This repository is a fork of [Quchaosheng/ros2-apriltag-docking-demo](https://github.com/Quchaosheng/ros2-apriltag-docking-demo). Upstream attribution and the Apache-2.0 license are retained. The CI badge above reports the **upstream repository**, not a validation run on this fork. Fork-specific changes and reproduction results should be recorded separately.
 
 A reproducible Gazebo docking workflow that guides a TurtleBot3 to a charging-dock staging pose,
 validates live AprilTag observations, and delegates the final approach to the Nav2 Docking
